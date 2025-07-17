@@ -1,0 +1,7 @@
+
+services:
+  - type: web
+    name: pfac-web
+    env: python
+    buildCommand: ""
+    startCommand: "python main.py"
